@@ -1,0 +1,68 @@
+header li{
+    display: inline;
+}
+
+.esportes{
+    color: green;
+}
+
+.noticias{
+    color: chartreuse;
+}
+
+.entretenimento{
+    color: cornflowerblue;
+}
+
+.tecnologia{
+    color: magenta;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.conteiner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
